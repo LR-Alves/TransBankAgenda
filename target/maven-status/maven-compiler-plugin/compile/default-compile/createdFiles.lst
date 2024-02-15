@@ -1,1 +1,6 @@
-com/bank/transbankagenda/TransbankagendaApplication.class
+com\bank\transbankagenda\repository\TransBankAgendaRepository.class
+com\bank\transbankagenda\TransBankAgendaApplication.class
+com\bank\transbankagenda\resource\TransBankAgendaController.class
+com\bank\transbankagenda\model\TransBankAgenda.class
+com\bank\transbankagenda\service\CrudTransBankAgendaService.class
+com\bank\transbankagenda\service\TransBankAgendaService.class
