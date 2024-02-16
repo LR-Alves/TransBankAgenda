@@ -2,10 +2,14 @@ package com.bank.transbankagenda.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.time.LocalDateTime;
 
 @Data
+@Getter
+@Setter
 @Entity
 @Table(name = "bank")
 public class TransBankAgenda {
@@ -14,12 +18,13 @@ public class TransBankAgenda {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
-    private String contaOrigem;
-    private  String contaDestino;
-    private double valor ;
-    private double saldo ;
-    private double taxa ;
-    private LocalDateTime dataAtual ;
-    private LocalDateTime dataTransferencia;
-    private double valorAgendadoTransferencia;
+    private String ContaOrigem;
+    private String ContaDestino;
+    private double Valor;
+    private double Saldo;
+    private double Taxa;
+    private LocalDateTime DataAtual;
+    private LocalDateTime DataTransferencia;
+    private double ValorAgendadoTransferencia;
 }
+

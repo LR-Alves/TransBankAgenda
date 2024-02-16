@@ -1,6 +1,9 @@
+com\bank\transbankagenda\serviceImpl\TransBankAgendaServiceImpl.class
+com\bank\transbankagenda\exception\TransBankNotFoundException.class
 com\bank\transbankagenda\repository\TransBankAgendaRepository.class
+com\bank\transbankagenda\resource\TransBankAgendaControllerUser.class
 com\bank\transbankagenda\TransBankAgendaApplication.class
 com\bank\transbankagenda\resource\TransBankAgendaController.class
 com\bank\transbankagenda\model\TransBankAgenda.class
-com\bank\transbankagenda\service\CrudTransBankAgendaService.class
 com\bank\transbankagenda\service\TransBankAgendaService.class
+com\bank\transbankagenda\service\TransBankAgendaServiceUser.class
